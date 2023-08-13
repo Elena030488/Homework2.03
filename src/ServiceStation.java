@@ -1,9 +1,6 @@
 public class ServiceStation {
-    public void check(Service service) {
-        service.doService();
-    }
-    public void check(Transport transport) {
-        transport.doService();
+    public void check(Servicable servicable) {
+        servicable.doService();
     }
 }
 
